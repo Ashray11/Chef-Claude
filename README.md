@@ -1,12 +1,41 @@
-# React + Vite
+# 🍽️ Claude-Chef
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Claude-Chef** is a React-based web application built with Vite that generates recipes using ingredient inputs. It leverages the **Hugging Face inference model** to create customized recipes based on user-provided ingredients.
 
-Currently, two official plugins are available:
+## 🛠️ Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Frontend**: React.js (Vite)
+- **AI Model**: Hugging Face Inference API
 
-## Expanding the ESLint configuration
+## 🚀 Running Locally
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Install **Node.js** and **npm** (or **yarn**)
+
+### Steps
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Ashray11/Chef-Claude.git
+   cd Chef-Claude
+   ```
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+3. **Set up environment variables** (if required)
+
+   - Create a `.env` file in the root directory
+   - Add any required API keys for Hugging Face inference
+
+4. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+5. **Access the app**
+   - Open `http://localhost:5173/` in your browser
+
+---
+
+Feel free to modify and enhance the app as needed! 🚀
